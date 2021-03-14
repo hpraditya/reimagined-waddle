@@ -1,78 +1,131 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-             Semantic
-        </title>
-    </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Restaurant Searcher</title>
+    <!---Import css bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--import bootstrap icon-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!--import external css sheet-->
+    <link href="homepagestyle.css" rel="stylesheet">
+    <!--import js bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" 
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+   </head>
     <body>
-        <h1>What is Semantic?</h1>
-
-        <p>semantic is a word that derived from ancient greek "semantikos" that means a study of meaning,
-            reference, or truth. The term semantics is used in several distinct diciplines.
-        </p>
-        <h2>Usage of semantics in different diciplines: </h2>
-        <ol>
-            <li>Linguistics</li>
-            <li>Philosophy</li>
-            <li>Computer Science</li>
-            <li>Psychology</li>
-        </ol>
-
-        <section>
-            <h3>Semantics in Linguistics</h3>
-            <p>In linguistics, semantics is the subfield that studies meaning. Semantics 
-                can address meaning at the levels of words, phrases, sentences, or larger units of discourse. 
-                One of the crucial questions which unites different approaches to linguistic semantics is that of the relationship between form and meaning</p>
-            <h4>Theories in linguistic semantic</h4>
-            <ul>
-                <li>Formal Semantics</li>
-                <li>Conceptual Semantics</li>
-                <li>Cognitive Semantics</li>
-                <li>Lexical Semantics</li>
-                <li>Cross-cultural Semantics</li>
-                <li>Computational Semantcis</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>Semantics in Philosophy</h3>
-            <p>Many of the formal approaches to semantics in mathematical logic and computer science originated in early twentieth century philosophy of 
-                language and philosophical logic. Initially, the most influential semantic theory stemmed from Gottlob Frege and Bertrand Russell. Frege and Russell are seen as the originators of 
-                a tradition in analytic philosophy to explain meaning compositionally via syntax and mathematical functionality. Ludwig Wittgenstein, a former student of Russell, is also seen as one of the seminal figures in the analytic tradition. All three of these early philosophers of language were concerned with how sentences expressed information in the form of propositions and with the truth values or truth conditions a given sentence has in virtue of the proposition it expresses</p>
-        </section>
-
-        <section>
-            <h3>Semantics in Computer Science</h3>
-            <p>In computer science, the term semantics refers to the meaning of language constructs, as opposed to their form (syntax). According to Euzenat, semantics</p><blockquote> "provides the rules for interpreting the syntax which do not provide the meaning directly but constrains the possible interpretations of what is declared."</blockquote>
-            <article>
-                <h4>Programming Languages</h4>
-                <p>The semantics of programming languages and other languages is an important issue and area of study in computer science. Like the syntax of a language, its semantics can be defined exactly.
-
-                    For instance, the following statements use different syntaxes, but cause the same instructions to be executed, namely, perform an arithmetical addition of 'y' to 'x' and store the result in a variable called 'x' </p>
-                <h4>Semantic Models</h4>
-                <p>The Semantic Web refers to the extension of the World Wide Web via embedding added semantic metadata, using semantic data modeling techniques such as Resource Description Framework (RDF) and Web Ontology Language (OWL). 
-                    On the Semantic Web, terms such as semantic network and semantic data model are used to describe particular types of data model characterized by the use of directed graphs in which the vertices denote concepts or entities in the world and their properties, and the arcs denote relationships between them. These can formally be described as description logic concepts and roles, which correspond to OWL classes and properties</p>    
-            </article>
-        </section>
-
-        <section>
-            <h3>Semantics in Psychology</h3>
-            <article>
-                <h4>Semantic Memory</h4>
-                <p>In psychology, semantic memory is memory for meaning – in other words, the aspect of memory that preserves only the gist, the general significance, of remembered experience – while episodic memory is memory for the ephemeral details – the individual features, or the unique particulars of experience. The term 'episodic memory' was introduced by Tulving and Schacter in the context of 'declarative memory' which involved simple association of factual or objective information concerning its object. Word meaning is measured by the company they keep, i.e. the relationships among words themselves in a semantic network. The memories may be transferred intergenerationally or isolated in one generation due to a cultural disruption. Different generations may have different experiences at similar points in their own time-lines. This may then create a vertically heterogeneous semantic net for certain words in an otherwise homogeneous culture</p>
-                <h4>Ideasthesia</h4>
-                <p>Ideasthesia is a psychological phenomenon in which activation of concepts evokes sensory experiences. For example, in synesthesia, activation of a concept of a letter (e.g., that of the letter A) evokes sensory-like experiences (e.g., of red color). </p>
-                <h4>Psychosemantic</h4>
-                <p>In the 1960s, psychosemantic studies became popular after Charles E. Osgood's massive cross-cultural studies using his semantic differential (SD) method that used thousands of nouns and adjective bipolar scales. A specific form of the SD, Projective Semantics method uses only most common and neutral nouns that correspond to the 7 groups (factors) of adjective-scales most consistently found in cross-cultural studies (Evaluation, Potency, Activity as found by Osgood, and Reality, Organization, Complexity, Limitation as found in other studies). In this method, seven groups of bipolar adjective scales corresponded to seven types of nouns so the method was thought to have the object-scale symmetry (OSS) between the scales and nouns for evaluation using these scales. For example, the nouns corresponding to the listed 7 factors would be: Beauty, Power, Motion, Life, Work, Chaos, Law. Beauty was expected to be assessed unequivocally as "very good" on adjectives of Evaluation-related scales, Life as "very real" on Reality-related scales, etc. However, deviations in this symmetric and very basic matrix might show underlying biases of two types: scales-related bias and objects-related bias. This OSS design meant to increase the sensitivity of the SD method to any semantic biases in responses of people within the same culture and educational background.</p>
-                <h4>Prototype Theory</h4>
-                <p>Another set of concepts related to fuzziness in semantics is based on prototypes. The work of Eleanor Rosch in the 1970s led to a view that natural categories are not characterizable in terms of necessary and sufficient conditions, but are graded (fuzzy at their boundaries) and inconsistent as to the status of their constituent members. One may compare it with Jung's archetype, though the concept of archetype sticks to static concept. Some post-structuralists are against the fixed or static meaning of the words. Derrida, following Nietzsche, talked about slippages in fixed meanings.
-
-                    Systems of categories are not objectively out there in the world but are rooted in people's experience. These categories evolve as learned concepts of the world – meaning is not an objective truth, but a subjective construct, learned from experience, and language arises out of the "grounding of our conceptual systems in shared embodiment and bodily experience".</p>
-            </article>
-        </section>
-        <footer>
-            <h6>Reference : </h6><a href="https://en.wikipedia.org/wiki/Semantics">https://en.wikipedia.org/wiki/Semantics</a>
-        </footer>
+        <!--header-->
+        <div class="header">
+            <div id="gradient">
+            <div class="btn-group">
+                <a href="#" type="button" class="btn idbtn">Login</a>
+                <a href="#" type="button" class="btn btn-outline-light idbtn" style="border:1px solid white; margin-left: 15px;">Create an account</a>
+            </div>
+            <!--search section-->
+            <div id="logo">
+                <span>R!</span>
+            </div>
+            <h1 class="text-center searchHeading">Find the Best Restaurant and Cafe Here!</h1> 
+            <div class="container">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <select class="form-control" id="location">
+                            <option selected>Bengaluru</option>
+                            <option>Sarjapur Road, Bengaluru</option>
+                            <option>HSR Layout, Bengaluru</option>
+                            <option>Kormangala, Bengaluru</option>
+                            <option>Jay Nagar, Bengaluru</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-prepend">
+                            <button class="btn searchbox" type="button" style="width: 30px;padding:0px; margin:0px; top:30px;"><i class="fa fa-search"></i></button>
+                        </span>
+                        <input type="text" class="form-control searchbox" placeholder = "Search for a Restaurant">
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+        <!--quicksearch section-->
+        <div class="quickSearchContainer">
+            <div class="subheaderContainer">
+                <h2 id="quickSearchHeading">Quick searches</h2>
+                <p id="quickSearchDescription">Discover restaurant by type of meal</p>
+            </div>
+                <!--first row-->
+                    <div class="tileContainer" id="breakfast">
+                        <div class="tileComponent1">
+                            <img class="foodtype" src="https://i.ibb.co/WVYz7nw/Breakfast.png" alt="Breakfast">
+                        </div>
+                        <div class="tileComponent2">
+                            <h3 class="titletype">Breakfast</h3>
+                            <p class="flavortext">Start your day with 
+                            exclusive breakfast 
+                            options</p>
+                        </div>    
+                    </div>
+                    <div class="tileContainer" id="lunch">
+                        <div class="tileComponent1">
+                            <img class="foodtype" src="https://i.ibb.co/djZ6T4V/Lunch.png" alt="Lunch">
+                        </div>
+                        <div class="tileComponent2">
+                            <h3 class="titletype">Lunch</h3>
+                            <p class="flavortext">Start your day with 
+                            exclusive breakfast 
+                            options</p>
+                        </div>
+                    </div>
+                    <div class="tileContainer" id="snacks">
+                        <div class="tileComponent1">
+                            <img class="foodtype" src="https://i.ibb.co/sssJPzB/snacks.png" alt="snacks">
+                        </div>
+                        <div class="tileComponent2">
+                            <h3 class="titletype">Snacks</h3>
+                            <p class="flavortext">Start your day with 
+                            exclusive breakfast 
+                            options</p>
+                        </div>
+                    </div>
+                    <!--Second row-->
+                    <div class="tileContainer" id="dinner">
+                        <div class="tileComponent1">
+                            <img class="foodtype" src="https://i.ibb.co/QfW49Wf/dinner.png" alt="dinner">
+                        </div>
+                        <div class="tileComponent2">
+                            <h3 class="titletype">Dinner</h3>
+                            <p class="flavortext">Start your day with 
+                            exclusive breakfast 
+                            options</p>
+                        </div>
+                    </div>
+                    <div class="tileContainer" id="drinks">
+                        <div class="tileComponetn1">
+                            <img class="foodtype" src="https://i.ibb.co/5rdZs7v/drinks.png" alt="drinks">
+                        </div>
+                        <div class="tileComponent2">
+                            <h3 class="titletype">Drinks</h3>
+                            <p class="flavortext">Start your day with 
+                            exclusive breakfast 
+                            options</p>
+                        </div>
+                    </div>
+                    <div class="tileContainer" id="nightlife">
+                        <div class="tileComponent1">
+                            <img class="foodtype" src="https://i.ibb.co/dJ4Mpnv/nightlife.png" alt="nightlife">
+                        </div>
+                        <div class="tileComponent2">
+                            <h3 class="titletype">Nightlife</h3>
+                            <p class="flavortext">Start your day with 
+                            exclusive breakfast 
+                            options</p>
+                        </div>
+                    </div>
+        </div>
+        <br>
+        <br>
     </body>
 </html>
